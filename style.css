@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=BioRhyme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=BioRhyme&family=Ubuntu:wght@300&display=swap");
+* {
+  margin: 0px;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #636e72;
+}
+h1 {
+  margin-left: 20px;
+
+  font-family: BioRhyme;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+}
+ul li a {
+  text-decoration: none;
+  margin: 20px;
+  font-family: BioRhyme;
+  color: black;
+}
+ul li a:hover {
+  text-decoration: underline;
+}
+.frame1 {
+  background-color: #e3f0ef;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  align-items: center;
+}
+h2 {
+  margin: 0px;
+  font-size: 40px;
+}
+h3 {
+  margin: 0px;
+  font-size: 25px;
+}
+.photo {
+  padding: 10px;
+}
+.photo1 {
+  width: 400px;
+  height: 400px;
+}
+.frame2 {
+  background-color: #636e72;
+  display: flex;
+  justify-content: space-around;
+  /* margin-top: 0px; */
+  height: 400px;
+  align-items: center;
+}
+.left {
+  font-family: Ubuntu;
+  font-size: 20px;
+}
+.right h1 {
+  margin: 30px;
+  font-size: 60px;
+  font-family: Ubuntu;
+}
+.Project {
+  background-color: #e3f0ef;
+}
+.Project a {
+  color: black;
+  text-decoration: none;
+  font-family: Ubuntu;
+  text-align: center;
+}
+.project-item {
+  margin: 20px;
+  background-color: #ffffff;
+  width: 250px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgb(238, 238, 238);
+  box-shadow: 5px 5px 10px #d0d0d0, -5px -5px 10px #ffffff;
+}
+.course-img {
+  width: 250px;
+  height: 150px;
+  border-radius: 0px;
+}
+.allprojects {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.project-item p {
+  padding: 5px;
+}
+.experience {
+  background-color: #636e72;
+}
+.experience h2 {
+  text-align: center;
+  font-family: Ubuntu;
+}
+.experience a {
+  color: black;
+  text-decoration: none;
+  font-family: Ubuntu;
+  text-align: center;
+  margin: 20px;
+}
+.experiencecard {
+  display: flex;
+  justify-content: space-around;
+}
+.experiencebox {
+  width: 40%;
+  height: 350px;
+  box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+h4 {
+  text-align: center;
+  margin: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.internship {
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 5px;
+}
+.subheading {
+  align-items: center;
+}
+.dates {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: 200px;
+}
+.dates2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: 100px;
+}
+.interndescription {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 20px;
+}
+.buttons {
+  display: flex;
+}
+.internbtn {
+  height: 40px;
+  margin: 5px;
+  font-size: 10px;
+  background-color: gray;
+  border-radius: 5px;
+  color: white;
+}
+.skillhead {
+  text-align: center;
+  font-family: Ubuntu;
+}
+.skillbox {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  justify-content: center;
+}
+.skillbox p {
+  background-color: #636e72;
+  margin: 10px;
+  border-radius: 10px;
+  width: 160px;
+  height: 40px;
+  text-align: center;
+  justify-content: center;
+  font-size: 19px;
+}
+.resume {
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.resumeimg {
+  margin-left: 425px;
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.resumehead {
+  text-align: center;
+  font-family: Ubuntu;
+}
+.profiles {
+  background-color: #636e72;
+  height: 300px;
+}
+.profileimg {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+}
+.profileimg1 {
+  border-radius: 10px;
+  height: 60px;
+  margin-top: 10px;
+}
+.profileimg2 {
+  border-radius: 10px;
+  height: 40px;
+  margin-top: 10px;
+}
+.upperfooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+h5 {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.lowerfooter {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+h6 {
+  font-size: 20px;
+  margin: 10px;
+}
+.email {
+  text-align: start;
+}
+.phead {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 20px;
+}
+.container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.contacthead {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 20px;
+}
+.form {
+  background-color: #636e72;
+  width: 900px;
+  height: 430px;
+  border-radius: 10px;
+  margin-left: 200px;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.left {
+  width: 450px;
+  padding: 20px;
+  display: grid;
+  margin: 20px;
+}
+.right {
+  width: 450px;
+  padding: 20px;
+}
+.right img {
+  width: 450px;
+  height: 390px;
+}
+.right img:hover {
+  transform: scale(1.1);
+}
+input {
+  background-color: #e6e6e6;
+  width: 300px;
+  height: 40px;
+  border-radius: 30px;
+  border-color: white;
+}
+input:hover {
+  border-color: black;
+}
+textarea {
+  background-color: #e6e6e6;
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  border-color: white;
+}
+textarea:hover {
+  border-color: black;
+}
+.submitbtn {
+  width: 200px;
+  border-radius: 30px;
+  margin-left: 40px;
+}
+.submitbtn:hover {
+  background-color: #d0d0d0;
+}
